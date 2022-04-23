@@ -7,6 +7,8 @@ Prepared for Elephant Team's Find the Bread. The code uses two 'Arduino Nano IOT
 
 The 'central device' is the center loaf. The 'peripheral devices' are the slices of breads at the end.
 
+This demo uses the ArduinoBLE library.
+
 [Elephant's Arduino Software](https://github.com/mit2009/200b-ee-demos/tree/main/elephant)
 
 ### Polar Bear: NRF24L01 Demo
