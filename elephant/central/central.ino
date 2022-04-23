@@ -12,13 +12,14 @@
 // but the value will take longer to get there.
 const int windowLength = 15;
 
-// A higher resolution means you'll get more granularity,
-// but too high of a resolution means there will be noise
-int resolution = 5;
+// A higher resolution number means you'll get more granularity,
+// but too high of a resolution number means there will be noise
+float resolution = 0.1;
 
 int windowPointer = 0;
 int window[windowLength];
 
+int lastLoggedTime = millis();
 
 void setup() {
   Serial.begin(9600);
@@ -84,5 +85,14 @@ void bluetoothLoop(int signalStrength) {
   for (int i = 0; i < windowLength; i++) {
     sum += window[i];
   }
-  Serial.println(sum / windowLength / resolution * -1);
+
+  // not in any specified units. Larger number just means further away.
+  int distanceAway = round(sum / windowLength * (1 / resolution) / 10 * -1);
+
+  // we only want to output a number every 1000ms
+  if (millis() > lastLoggedTime + 500) {
+    Serial.println(distanceAway);
+    lastLoggedTime = millis();
+  }
+  
 }
