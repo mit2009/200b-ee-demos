@@ -15,6 +15,8 @@ This demo uses the ArduinoBLE library.
 
 A quick demo to show how to use the NRF24L01 and the reed switches to get the 'bump' sensor.
 
+[Polar Bear's Arduino Software](https://github.com/mit2009/200b-ee-demos/tree/main/polar-bear)
+
 ## General Helpful Demos
 ### Reed Switch Demo
 
