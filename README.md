@@ -7,7 +7,7 @@ The 'central device' is the center loaf. The 'peripheral devices' are the slices
 
 [Elephant's Arduino Software](https://github.com/mit2009/200b-ee-demos/tree/main/elephant)
 
-### 2. Polar Bear NRF24L01 Demo
+### 2. Polar Bear's NRF24L01 Demo
 
 A quick demo to show how to use the NRF24L01 and the reed switches to get the 'bump' sensor.
 
