@@ -3,11 +3,11 @@ Hello! Here are a bunch of demos for 2.00b 2022 that will hopefully be helpful i
 ## Team Specific Demos
 ### Elephant: Bluetooth Distance Estimating Demo
 
-Prepared for Elephant Team's Find the Bread. The code uses two 'Arduino Nano IOT 33', though it's likely the code also works on the 'Arduino Nano 33 BLE' if the previously mentioned Arduino flavor is sold out.
+Prepared for Elephant Team's Find the Bread. The code uses two `Arduino Nano IOT 33`, though it's likely the code also works on the `Arduino Nano 33 BLE` if the previously mentioned Arduino flavor is sold out.
 
 The 'central device' is the center loaf. The 'peripheral devices' are the slices of breads at the end.
 
-This demo uses the ArduinoBLE library.
+This demo uses the `ArduinoBLE` library.
 
 [Elephant's Arduino Software](https://github.com/mit2009/200b-ee-demos/tree/main/elephant)
 
