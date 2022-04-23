@@ -1,5 +1,5 @@
 # 2.00b Electronic Demos
-Hello! Here are a bunch of demos for 2.00b 2022 that will hopefully be helpful in making your toy! Feel free to contact #ask-the-tas on slack or Victor if you have any questions! It's GO TIME!
+Hello! Here are a bunch of demos for 2.00b 2022 that will hopefully be helpful in making your toy! Feel free to contact #ask-the-tas on Slack or DM Victor directly if you have any questions! It's GO TIME!
 ## Team Specific Demos
 ### Elephant: Bluetooth Distance Estimating Demo
 
