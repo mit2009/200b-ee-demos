@@ -23,3 +23,7 @@ A quick demo to show how to use the NRF24L01 and the reed switches to get the 'b
 A tiny demo based off of Arduino's example button press code to demonstrate how to use a reed switch! (Yes! it is basically just like a button.) 
 
 [Reed Switch Demo Software](https://github.com/mit2009/200b-ee-demos/tree/main/reed-switch)
+
+### Other Demos
+
+You can also find a bunch of the demos shown during the electronics tutorial in the [200b-eetutorial-2022 repository](https://github.com/mit2009/200b-eetutorial-2022)
