@@ -1,6 +1,6 @@
 # 2.00b Electronic Demos
 Hello! Here are a bunch of demos for 2.00b 2022 that will hopefully be helpful in making your toy! Feel free to contact #ask-the-tas on Slack or DM Victor directly if you have any questions! It's GO TIME!
-## Team Specific Demos
+## 2.00b 2022 Team Specific Demos
 ### Elephant: Bluetooth Distance Estimating Demo
 
 Prepared for Elephant Team's Find the Bread. The code uses two `Arduino Nano IOT 33`, though it's likely the code also works on the `Arduino Nano 33 BLE` if the previously mentioned Arduino flavor is sold out.
